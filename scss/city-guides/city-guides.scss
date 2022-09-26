@@ -1,0 +1,71 @@
+.city-guides {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  .city-header {
+    margin-bottom: 1%;
+    width: 50%;
+    padding: 3%;
+    background-image: url("../images/city-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    #where-input {
+      width: 200px;
+      text-align: center;
+    }
+  }
+  .latest-cities {
+    margin-top: 2%;
+    padding: 1%;
+    .city-content-one {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 100%;
+
+      .city-guide1,
+      .city-guide2,
+      .city-guide3 {
+        img {
+          max-width: 90%;
+        }
+        h2,
+        p {
+          margin: 0 auto;
+          max-width: 90%;
+          text-align: center;
+        }
+        h2 {
+          font-size: larger;
+        }
+      }
+    }
+    .city-content-two {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 100%;
+      padding: 3%;
+
+      .city-guide4,
+      .city-guide5,
+      .city-guide6 {
+        img {
+          max-width: 90%;
+        }
+        h2,
+        p {
+          margin: 0 auto;
+          max-width: 90%;
+          text-align: center;
+        }
+        h2 {
+          font-size: larger;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 20px;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  bottom: 0;
+  color: white;
+}
+
+.home {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+.home .home-header {
+  margin-bottom: 1%;
+  width: 50%;
+  padding: 3%;
+  background-image: url("../images/home-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .home-header #where-input {
+  width: 200px;
+  text-align: center;
+}
+.home .home-features {
+  margin-top: 2%;
+  background-color: antiquewhite;
+  padding: 1%;
+}
+.home .home-features .home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.home .home-features .home-content .home-feature1 img,
+.home .home-features .home-content .home-feature2 img,
+.home .home-features .home-content .home-feature3 img {
+  max-width: 90%;
+}
+.home .home-features .home-content .home-feature1 h2,
+.home .home-features .home-content .home-feature1 p,
+.home .home-features .home-content .home-feature2 h2,
+.home .home-features .home-content .home-feature2 p,
+.home .home-features .home-content .home-feature3 h2,
+.home .home-features .home-content .home-feature3 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.home .home-features .home-content .home-feature1 h2,
+.home .home-features .home-content .home-feature2 h2,
+.home .home-features .home-content .home-feature3 h2 {
+  font-size: larger;
+}
+.home .home-food-drink {
+  margin-top: 2%;
+  background-color: rgb(163, 194, 250);
+  padding: 1%;
+}
+.home .home-food-drink .home-food-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.home .home-food-drink .home-food-content .home-food1 img,
+.home .home-food-drink .home-food-content .home-food2 img,
+.home .home-food-drink .home-food-content .home-food3 img {
+  max-width: 90%;
+}
+.home .home-food-drink .home-food-content .home-food1 h2,
+.home .home-food-drink .home-food-content .home-food1 p,
+.home .home-food-drink .home-food-content .home-food2 h2,
+.home .home-food-drink .home-food-content .home-food2 p,
+.home .home-food-drink .home-food-content .home-food3 h2,
+.home .home-food-drink .home-food-content .home-food3 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.home .home-food-drink .home-food-content .home-food1 h2,
+.home .home-food-drink .home-food-content .home-food2 h2,
+.home .home-food-drink .home-food-content .home-food3 h2 {
+  font-size: larger;
+}
+
+.about {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.about h1 {
+  margin-top: 1%;
+}
+.about p {
+  max-width: 65%;
+  text-align: center;
+}
+
+.country-guides {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+.country-guides .country-header {
+  margin-bottom: 1%;
+  width: 50%;
+  padding: 3%;
+  background-image: url("../images/country-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.country-guides .country-header #where-input {
+  width: 200px;
+  text-align: center;
+}
+.country-guides .latest-countries {
+  margin-top: 2%;
+  padding: 1%;
+}
+.country-guides .latest-countries .country-content-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.country-guides .latest-countries .country-content-one .country-guide1 img,
+.country-guides .latest-countries .country-content-one .country-guide2 img,
+.country-guides .latest-countries .country-content-one .country-guide3 img {
+  max-width: 90%;
+}
+.country-guides .latest-countries .country-content-one .country-guide1 h2,
+.country-guides .latest-countries .country-content-one .country-guide1 p,
+.country-guides .latest-countries .country-content-one .country-guide2 h2,
+.country-guides .latest-countries .country-content-one .country-guide2 p,
+.country-guides .latest-countries .country-content-one .country-guide3 h2,
+.country-guides .latest-countries .country-content-one .country-guide3 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.country-guides .latest-countries .country-content-one .country-guide1 h2,
+.country-guides .latest-countries .country-content-one .country-guide2 h2,
+.country-guides .latest-countries .country-content-one .country-guide3 h2 {
+  font-size: larger;
+}
+.country-guides .latest-countries .country-content-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  padding: 3%;
+}
+.country-guides .latest-countries .country-content-two .country-guide4 img,
+.country-guides .latest-countries .country-content-two .country-guide5 img,
+.country-guides .latest-countries .country-content-two .country-guide6 img {
+  max-width: 90%;
+}
+.country-guides .latest-countries .country-content-two .country-guide4 h2,
+.country-guides .latest-countries .country-content-two .country-guide4 p,
+.country-guides .latest-countries .country-content-two .country-guide5 h2,
+.country-guides .latest-countries .country-content-two .country-guide5 p,
+.country-guides .latest-countries .country-content-two .country-guide6 h2,
+.country-guides .latest-countries .country-content-two .country-guide6 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.country-guides .latest-countries .country-content-two .country-guide4 h2,
+.country-guides .latest-countries .country-content-two .country-guide5 h2,
+.country-guides .latest-countries .country-content-two .country-guide6 h2 {
+  font-size: larger;
+}
+
+.city-guides {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+.city-guides .city-header {
+  margin-bottom: 1%;
+  width: 50%;
+  padding: 3%;
+  background-image: url("../images/city-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.city-guides .city-header #where-input {
+  width: 200px;
+  text-align: center;
+}
+.city-guides .latest-cities {
+  margin-top: 2%;
+  padding: 1%;
+}
+.city-guides .latest-cities .city-content-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.city-guides .latest-cities .city-content-one .city-guide1 img,
+.city-guides .latest-cities .city-content-one .city-guide2 img,
+.city-guides .latest-cities .city-content-one .city-guide3 img {
+  max-width: 90%;
+}
+.city-guides .latest-cities .city-content-one .city-guide1 h2,
+.city-guides .latest-cities .city-content-one .city-guide1 p,
+.city-guides .latest-cities .city-content-one .city-guide2 h2,
+.city-guides .latest-cities .city-content-one .city-guide2 p,
+.city-guides .latest-cities .city-content-one .city-guide3 h2,
+.city-guides .latest-cities .city-content-one .city-guide3 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.city-guides .latest-cities .city-content-one .city-guide1 h2,
+.city-guides .latest-cities .city-content-one .city-guide2 h2,
+.city-guides .latest-cities .city-content-one .city-guide3 h2 {
+  font-size: larger;
+}
+.city-guides .latest-cities .city-content-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  padding: 3%;
+}
+.city-guides .latest-cities .city-content-two .city-guide4 img,
+.city-guides .latest-cities .city-content-two .city-guide5 img,
+.city-guides .latest-cities .city-content-two .city-guide6 img {
+  max-width: 90%;
+}
+.city-guides .latest-cities .city-content-two .city-guide4 h2,
+.city-guides .latest-cities .city-content-two .city-guide4 p,
+.city-guides .latest-cities .city-content-two .city-guide5 h2,
+.city-guides .latest-cities .city-content-two .city-guide5 p,
+.city-guides .latest-cities .city-content-two .city-guide6 h2,
+.city-guides .latest-cities .city-content-two .city-guide6 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.city-guides .latest-cities .city-content-two .city-guide4 h2,
+.city-guides .latest-cities .city-content-two .city-guide5 h2,
+.city-guides .latest-cities .city-content-two .city-guide6 h2 {
+  font-size: larger;
+}
+
+.features {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+}
+.features .feature-header {
+  margin-bottom: 1%;
+}
+.features .feature-header #where-input {
+  width: 200px;
+  text-align: center;
+}
+.features .recent-features {
+  padding: 1%;
+}
+.features .recent-features .features-content-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.features .recent-features .features-content-one .feature1 img,
+.features .recent-features .features-content-one .feature2 img,
+.features .recent-features .features-content-one .feature3 img {
+  max-width: 90%;
+}
+.features .recent-features .features-content-one .feature1 h2,
+.features .recent-features .features-content-one .feature1 p,
+.features .recent-features .features-content-one .feature2 h2,
+.features .recent-features .features-content-one .feature2 p,
+.features .recent-features .features-content-one .feature3 h2,
+.features .recent-features .features-content-one .feature3 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.features .recent-features .features-content-one .feature1 h2,
+.features .recent-features .features-content-one .feature2 h2,
+.features .recent-features .features-content-one .feature3 h2 {
+  font-size: larger;
+}
+.features .recent-features .features-content-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  padding: 3%;
+}
+.features .recent-features .features-content-two .feature4 img,
+.features .recent-features .features-content-two .feature5 img,
+.features .recent-features .features-content-two .feature6 img {
+  max-width: 90%;
+}
+.features .recent-features .features-content-two .feature4 h2,
+.features .recent-features .features-content-two .feature4 p,
+.features .recent-features .features-content-two .feature5 h2,
+.features .recent-features .features-content-two .feature5 p,
+.features .recent-features .features-content-two .feature6 h2,
+.features .recent-features .features-content-two .feature6 p {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+.features .recent-features .features-content-two .feature4 h2,
+.features .recent-features .features-content-two .feature5 h2,
+.features .recent-features .features-content-two .feature6 h2 {
+  font-size: larger;
+}
+
+/*# sourceMappingURL=styles.css.map */
